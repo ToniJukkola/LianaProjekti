@@ -8,16 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container-fluid">
-        
+    <div>
+        <!-- Language header -->
         <header>
             <div class="language-container">
                 <div class="d-flex flex-row-reverse">
                     <div class="p-2">
                         <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            In English 
-                            </button>
+                            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">In English</button>
                             <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">In Finnish</a></li>
                             <li><a class="dropdown-item" href="#">In Swedish</a></li>
@@ -25,24 +23,70 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="p-2"><a href="#">Intranet</a></div>
-                    <div class="p-2"><a href="#">News</a></div>
-                  </div>
-                
+                    <div class="p-2"><a class="header-link" href="#">Intranet</a></div>
+                    <div class="p-2"><a class="header-link" href="#">News</a></div>
+                </div>
             </div>
             <div class="logo-container">
-                <h1>Hello there</h1>
+                <!-- Company logo placeholder -->
             </div>
         </header>
-        
-            <div class="grid text-center">
-                <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
-                <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
-                <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+
+        <!-- Logo header -->
+        <header class="d-flex align-items-center justify-content-between py-3">
+            <div class="logo-container">
+                <!-- Company logo -->
+                <img class="logo" src="../LianaProjekti/img/logo.png" alt="">
             </div>
+            <div class="d-flex align-items-center justify-content-between py-3 flex-wrap">
+                <a class="logo-header-link" href="#">Company</a>
+                <a class="logo-header-link" href="#">Products</a>
+                <a class="logo-header-link" href="#">Contact us</a>
+            </div>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </header>
+        
+        <!-- Main image -->
+        <div class="main-image-container">
+            <div class="overlay-text">
+                <h2>Software fueling digital marketing</h2>
+                <button class="btn btn-success">Learn more</button>
+            </div>
+        </div>
+        <!-- image section -->
+        <div class="image-section">
+            <div class="image-container" id="company">
+                <div class="section-text">Company</div>
+            </div>
+            <div class="image-container" id="products">
+                <div class="section-text">Products</div>
+            </div>
+            <div class="image-container" id="contact">
+                <div class="section-text">Contact us</div>
+            </div>
+        </div>
+
+        <!-- icons section -->
+        <div class="icons-section">
+            <div class="icons-container" id="bag">
+               <!-- <img src="../LianaProjekti/img/laukku.png" alt="">-->
+                <div class="icons-text"><h1>3000</h1> Clients</div>
+            </div>
+            <div class="icons-container" id="head">
+               <!--  <img src="../LianaProjekti/img/paa.png" alt="">-->
+                <div class="icons-text"><h1>180</h1> Employees</div>
+            </div>
+            <div class="icons-container" id="earth">
+               <!-- <img src="../LianaProjekti/img/maapallo.png" alt="">-->
+                <div class="icons-text"><h1>10000</h1> Daily users</div>
+            </div>
+        </div>
         
     </div>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>
