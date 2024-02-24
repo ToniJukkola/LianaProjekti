@@ -93,6 +93,21 @@
     color: white;
     padding: 10px;
 }
+.box {
+    background-color: #ffffff; /* Valkoinen tausta */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+}
+/* Sähköposti error */
+
+#email-error {
+    font-weight: bold;
+    color: red;
+    padding: 20px;
+}
 .footer-header {
     margin-bottom: 40px;
 }
@@ -162,5 +177,13 @@
     .contact-button {
         margin-top: 50px;
         margin-bottom: 50px;
+    }
+    .box {
+        
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        width: auto;
+        height: auto;
     }
 }
