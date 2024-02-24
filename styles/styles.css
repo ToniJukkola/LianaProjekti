@@ -21,6 +21,13 @@
     text-decoration: none;
 }
 
+.footer-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .language-container {
     background-color: rgb(111, 178, 77);
 }
@@ -86,6 +93,17 @@
     color: white;
     padding: 10px;
 }
+.footer-header {
+    margin-bottom: 40px;
+}
+.sales-text {
+    font-weight: bold;
+}
+
+.link-buttons {
+    margin-top: 100px;
+}
+
 @media (max-width: 1215px) {
 
     
@@ -137,5 +155,12 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
+    }
+    .link-buttons {
+        margin-top: 50px;
+    }
+    .contact-button {
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 }
