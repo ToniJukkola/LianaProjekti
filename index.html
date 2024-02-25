@@ -33,20 +33,30 @@
         </header>
 
         <!-- Logo header -->
-        <header class="d-flex align-items-center justify-content-between py-3">
-            <div class="logo-container">
-                <!-- Company logo -->
-                <img class="logo" src="../LianaProjekti/img/logo.png" alt="">
+        <header class="bg-white py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <!-- Logo -->
+                        <img class="logo" src="../LianaProjekti/img/logo.png" alt="">
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Linkit -->
+                        <div class="d-flex align-items-center justify-content-between">
+                            <a class="logo-header-link" href="#">Company</a>
+                            <a class="logo-header-link" href="#">Products</a>
+                            <a class="logo-header-link" href="#">Contact us</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Hakukenttä ja hakunappi -->
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="d-flex align-items-center justify-content-between py-3 flex-wrap">
-                <a class="logo-header-link" href="#">Company</a>
-                <a class="logo-header-link" href="#">Products</a>
-                <a class="logo-header-link" href="#">Contact us</a>
-            </div>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-success" type="submit">Search</button>
-            </form>
         </header>
         
         <!-- Main image -->
@@ -56,6 +66,7 @@
                 <button class="btn btn-success">Learn more</button>
             </div>
         </div>
+
         <!-- image section -->
         <div class="image-section">
             <div class="image-container" id="company">
@@ -114,6 +125,61 @@
             </div>
         </div>
 
+        <!-- references -->
+        <div class="p-4">
+            <div class="container">
+                <div class="d-md-flex flex-column justify-content-between align-items-center">
+                    <h3 class="p-5">References</h3>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="ref-box">
+                                <div class="image-space">
+                                    <img style="height: 60px;" src="../LianaProjekti/img/bosch.png" alt="Kuva 1">
+                                </div>
+                                <div class="text-space">
+                                    <h4>Robert Bosch</h4>
+                                    <p>Bosch is a multinational engineering and electronics company.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="ref-box">
+                                <div class="image-space">
+                                    <img style="width: 60px; height: 60px;" src="../LianaProjekti/img/bodyshop.png" alt="Kuva 2">
+                                </div>
+                                <div class="text-space">
+                                    <h4>The Body Shop</h4>
+                                    <p>The Body Shop is a gbobal beauty brand and it has more than 3,000 stores in more than 60 countries.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="ref-box">
+                                <div class="image-space">
+                                    <img style="height: 60px;" src="../LianaProjekti/img/laplandhotels.png" alt="Kuva 3">
+                                </div>
+                                <div class="text-space">
+                                    <h4>Lapland Hotels</h4>
+                                    <p>Lapland Hotels is the largest and the most diverse hotel chain in Lapland.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="ref-box">
+                                <div class="image-space">
+                                    <img style="height: 60px;" src="../LianaProjekti/img/ikea.png" alt="Kuva 4">
+                                </div>
+                                <div class="text-space">
+                                    <h4>IKEA</h4>
+                                    <p>IKEA is a multinationa furniture store.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <!-- Newsletter section -->
         <section class="p-5">
             <div class="container">
